@@ -1,0 +1,28 @@
+{
+  "name": "azure-computer-vision",
+  "version": "1.0.0",
+  "description": "describe images/scenes/people",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nothing..skip",
+    "this"
+  ],
+  "author": "axdu",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cognitiveservices-customvision-prediction": "^4.0.0",
+    "@azure/cognitiveservices-customvision-training": "^4.0.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "microsoft-computer-vision": "^0.4.2",
+    "mongoose": "^5.9.2",
+    "multer": "^1.4.2",
+    "randomstring": "^1.1.5",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0"
+  }
+}
